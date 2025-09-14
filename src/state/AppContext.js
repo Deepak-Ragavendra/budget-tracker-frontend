@@ -4,7 +4,7 @@ import axios from "axios";
 
 // --- API Setup ---
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "http://localhost:5000/api", 
+  baseURL: process.env.REACT_APP_API_URL || "https://budget-tracker-backend-lias.onrender.com/api",
 });
 
 // --- Initial State (empty, data will come from backend) ---
