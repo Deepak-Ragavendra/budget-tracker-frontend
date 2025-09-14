@@ -168,6 +168,7 @@ export function AppProvider({ children }) {
     dispatch,
     ACTIONS,
     totals,
+    groups: state.groups, // <-- explicitly expose groups
     // CRUD Functions
     addTransaction, updateTransaction, deleteTransaction,
     addBudget, updateBudget, deleteBudget,
